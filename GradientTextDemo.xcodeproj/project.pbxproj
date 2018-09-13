@@ -17,6 +17,8 @@
 		195D2A20214A414E002D9705 /* GradientTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 195D2A1F214A414E002D9705 /* GradientTextDemoUITests.m */; };
 		195D2A31214A4173002D9705 /* libDynamicGradientText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195D2A30214A4173002D9705 /* libDynamicGradientText.a */; };
 		195D2A4B214A43AC002D9705 /* libCutImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195D2A4A214A43AC002D9705 /* libCutImage.a */; };
+		195D2A4F214A4650002D9705 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 195D2A4D214A4650002D9705 /* 2.png */; };
+		195D2A50214A4650002D9705 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 195D2A4E214A4650002D9705 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		195D2A30214A4173002D9705 /* libDynamicGradientText.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDynamicGradientText.a; sourceTree = "<group>"; };
 		195D2A49214A43AC002D9705 /* CutImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutImage.h; sourceTree = "<group>"; };
 		195D2A4A214A43AC002D9705 /* libCutImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCutImage.a; sourceTree = "<group>"; };
+		195D2A4D214A4650002D9705 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		195D2A4E214A4650002D9705 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		195D29FA214A4149002D9705 /* GradientTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				195D2A4C214A463E002D9705 /* images */,
 				195D2A47214A43AC002D9705 /* include1 */,
 				195D2A4A214A43AC002D9705 /* libCutImage.a */,
 				195D2A2D214A4173002D9705 /* include */,
@@ -174,6 +179,15 @@
 				195D2A49214A43AC002D9705 /* CutImage.h */,
 			);
 			path = CutImage;
+			sourceTree = "<group>";
+		};
+		195D2A4C214A463E002D9705 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				195D2A4E214A4650002D9705 /* 1.png */,
+				195D2A4D214A4650002D9705 /* 2.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +293,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195D2A50214A4650002D9705 /* 1.png in Resources */,
 				195D2A08214A414E002D9705 /* LaunchScreen.storyboard in Resources */,
+				195D2A4F214A4650002D9705 /* 2.png in Resources */,
 				195D2A05214A414E002D9705 /* Assets.xcassets in Resources */,
 				195D2A03214A4149002D9705 /* Main.storyboard in Resources */,
 			);
